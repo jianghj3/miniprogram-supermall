@@ -1,0 +1,38 @@
+<!--pages/detail/detailCpns/w-params-info/w-params-info.wxml-->
+<view class="paramsInfo">
+  <!-- 展示商品尺寸信息 -->
+  <view class="sizeTables">
+    <block wx:for="{{paramsInfo.rule}}"
+           wx:for-item = "outerItem"
+           wx:for-index = "outerIndex"
+           wx:key = "outerIndex">
+      <view class="sizeTableItem">
+        <block wx:for="{{outerItem}}"
+               wx:for-item = "middleItem"
+               wx:for-index = "middleIndex"
+               wx:key = "middleIndex">
+          <view class="middleItem">
+            <block wx:for="{{middleItem}}"
+                   wx:for-item = "innerItem"
+                   wx:for-index = "innerIndex"
+                   wx:key = "innerIndex">
+                <view class="innerItem">{{innerItem}}</view>
+            </block>
+          </view>
+        </block>
+      </view>
+    </block>
+  </view>
+
+  <!-- 展示商品具体信息 -->
+  <view class="specInfo">
+    <block wx:for="{{paramsInfo.info}}" wx:key="index">
+      <view class="specInfoItem">
+        <view class="itemKey"> {{ item.key }} </view>
+        <view class="itemValue"> {{item.value}} </view>
+      </view>
+    </block>
+  </view>
+
+
+</view>

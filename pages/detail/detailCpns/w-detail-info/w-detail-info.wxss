@@ -1,0 +1,51 @@
+/* pages/detail/detailCpns/w-detail-info/w-detail-info.wxss */
+.detailInfo {
+  padding: 30rpx 20rpx 10rpx;
+  border-bottom: 10rpx solid #eee;
+  color: #555;
+  font-size: 28rpx;
+}
+.descBox {
+  position: relative;
+}
+.content .detailKey {
+  margin: 20rpx 0;
+  font-size: 30rpx;
+}
+.topLine, 
+.bottomLine {
+  position: absolute;
+  width: 200rpx;
+  height: 3rpx;
+  background-color: #333;
+}
+.topLine::before,
+.bottomLine::before {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  content: '';
+  width: 10rpx;
+  height: 10rpx;
+  background-color: #333;
+}
+.topLine {
+  top: 0;
+  left: 0;
+}
+.bottomLine {
+  bottom: 0;
+  right: 0;
+}
+.topLine::before {
+  left: 0;
+}
+.bottomLine::before {
+  right: 0;
+}
+.descBox .desc {
+  padding: 20rpx 0;
+}
+.content .detailImage .image {
+  width: 100%;
+}

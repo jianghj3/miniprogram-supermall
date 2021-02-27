@@ -1,0 +1,48 @@
+/* pages/detail/detailCpns/w-base-info/w-base-info.wxss */
+.baseInfo {
+    margin-top: 10rpx;
+    border-bottom: 10rpx solid #eee;
+    font-size: 30rpx;
+    color: #555;
+}
+.baseInfo .price {
+  position: relative;
+  margin: 10rpx;
+}
+.baseInfo .price .newPrice {
+  color: #ff5879;
+  font-size: 34rpx;
+}
+.baseInfo .price .oldPrice {
+  margin: 0 10rpx;
+  text-decoration: line-through;
+}
+.baseInfo .price .discount {
+  position: absolute;
+  top: -8rpx;
+  padding: 5rpx;
+  background-color: #ff5879;
+  color: #fff;
+  font-size: 24rpx;
+  border-radius: 20rpx;
+}
+.baseInfo .columns {
+  display: flex;
+  margin: 30rpx 10rpx 0;
+  padding-bottom: 10rpx;
+  border-bottom: 4rpx solid #eee;
+  font-size: 24rpx;
+  justify-content: space-between;
+}
+.baseInfo .services {
+  display: flex;
+  margin: 20rpx 10rpx;
+  font-size: 24rpx;
+  justify-content: space-between;
+}
+.services .serviceItem .icon {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 2rpx;
+  vertical-align: middle;
+}

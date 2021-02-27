@@ -1,0 +1,25 @@
+/* pages/category/categoryCpn/w-content/w-content.wxss */
+.content {
+  height: 100vh;
+}
+.subCategories {
+  display: flex;
+  margin-bottom: 40rpx;
+  font-size: 32rpx;
+  color: #555;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.subCategories .subItem {
+  width: 145rpx;
+  padding: 30rpx 15rpx 0;
+}
+.subItem .image {
+  width: 150rpx;
+}
+.subItem .title {
+  margin-top: 20rpx;
+}
+.content .detail {
+  margin-top: 100rpx;
+}

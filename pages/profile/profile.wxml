@@ -1,0 +1,10 @@
+<!--pages/profile/profile.wxml-->
+<view class="profile">
+  <!-- 展示头部 -->
+  <w-header class="header" />
+  <!-- 展示个人账户信息 -->
+  <w-info /> 
+  <!-- 展示服务信息 -->
+  <w-list-view infos="{{orderList}}"/>
+  <w-list-view infos="{{serviceList}}"/>
+</view>

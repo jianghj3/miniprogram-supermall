@@ -1,0 +1,26 @@
+/* pages/detail/detailCpns/w-params-info/w-params-info.wxss */
+.paramsInfo {
+  padding: 30rpx 20rpx;
+  font-size: 28rpx;
+  color: #555;
+  border-bottom: 10rpx solid #eee;
+}
+.middleItem,
+.specInfoItem {
+  display: flex;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #eee;
+}
+.middleItem .innerItem {
+  flex: 1;
+}
+.specInfoItem .itemKey {
+  width: 150rpx;
+}
+.specInfoItem .itemValue {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #ff5777;
+  flex: 1;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-list-item": "/pages/shopcart/shopCartCpn/w-list-item/w-list-item",
+    "w-bottom-bar": "/pages/shopcart/shopCartCpn/w-bottom-bar/w-bottom-bar"
+  }
+}

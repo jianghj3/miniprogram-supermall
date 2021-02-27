@@ -1,0 +1,24 @@
+<!--pages/detail/detailCpns/w-detail-info/w-detail-info.wxml-->
+<view class="detailInfo">
+ <view class="descBox">
+   <view class="topLine"></view>
+   <view class="desc">{{detailInfo.desc}}</view>
+   <view class="bottomLine"></view>
+ </view>
+ <view class="content"> 
+  <block wx:for="{{detailInfo.detailImage}}"
+         wx:for-item = "outerItem"
+         wx:for-index = "outerIndex"
+         wx:key="outerIndex">
+    <view class="detailKey">{{outerItem.key}}</view>
+    <view class="detailImage">
+      <block wx:for = "{{outerItem.list}}"
+             wx:for-item = "innerItem"
+             wx:for-index = "innerIndex"
+             wx:key = "innerIndex">
+        <image src="{{innerItem}}" mode="widthFix" class="image" />
+      </block>
+    </view>
+  </block>
+ </view>
+</view>

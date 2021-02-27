@@ -1,0 +1,12 @@
+<!--pages/shopcart/shopcart.wxml-->
+<view class="shopCart">
+  <!-- 展示购物车商品 -->
+  <block wx:for="{{cartList}}" wx:key="index"> 
+    <w-list-item item="{{item}}" index="{{index}}" />
+  </block>
+<!-- 展示底部bottomBar -->
+  <w-bottom-bar isSelectAll="{{isSelectAll}}"
+                bind:selectAll="onSelectAll"
+                totalGoods="{{totalGoods}}"
+                totalPrice="{{totalPrice}}" />
+</view>

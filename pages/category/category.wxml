@@ -1,0 +1,11 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+  <!-- 展示侧边导航栏menu -->
+  <w-menu category="{{categories}}" 
+          class="menu" 
+          bind:menuClick="menuClick" />
+  <!-- 展示内容 -->
+  <w-content subCategories = "{{categoryData[currentIndex].subCategories}}"
+             subCategoryDetail = "{{categoryData[currentIndex].subCategoryDetail}}" 
+             class="content" />
+</view>

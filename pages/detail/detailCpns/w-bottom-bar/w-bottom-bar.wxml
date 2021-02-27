@@ -1,0 +1,25 @@
+<!--pages/detail/detailCpns/w-bottom-bar/w-bottom-bar.wxml-->
+<view class="bottomBar">
+  <view class="services">
+    <view class="client">
+      <image src="/assets/detail/service.png" class="image"/>
+      <view>客服</view>
+    </view>
+    <view class="shop">
+      <image src="/assets/detail/shop.png" class="image" />
+      <view>店铺</view>
+    </view>
+    <view class="collect">
+      <image src="/assets/detail/collect.png" class="image" />
+      <view>收藏</view>
+    </view>
+  </view>
+  <view class="purchase">
+    <view class="addCart" bindtap="addCart">
+      <text>加入购物车</text>
+    </view>
+    <view class="buy">
+      <text>购买</text>
+    </view>
+  </view>
+</view>

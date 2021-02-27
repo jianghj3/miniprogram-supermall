@@ -1,0 +1,25 @@
+/* components/w-goods-item/w-goods-item.wxss */
+.w-goods-item {
+  margin-bottom: 10rpx;
+  font-size: 30rpx;
+  color: #555;
+  text-align: center;
+}
+.w-goods-item .image {
+  width: 100%;
+  border-radius: 10rpx;
+}
+.w-goods-item .desc-info {
+  position: absolute;
+  width: 95%;
+  bottom: 10rpx;
+}
+.w-goods-item .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.w-goods-item .price {
+  color: #ff699c;
+  margin-right: 20rpx;
+}

@@ -1,0 +1,40 @@
+/* pages/detail/detailCpns/w-comment/w-comment.wxss */
+.comment {
+  padding: 30rpx 10rpx;
+  border-bottom: 10rpx solid #eee;
+  font-size: 28rpx;
+  color:#555
+}
+.comment .header {
+  position: relative;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.header .more {
+  position: absolute;
+  bottom: 20rpx;
+  right: 0;
+  font-size: 30rpx;
+}
+.comment .commentItem {
+  padding-top: 20rpx;
+}
+.commentItem .userInfo .avatar {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+.commentItem .userInfo .uname {
+  color: #444;
+}
+.commentItem .content {
+  padding: 20rpx 0;
+  font-size: 24rpx;
+  text-indent: 2em;
+}
+.commentItem .style {
+  font-size: 22rpx;
+  color: #999;
+}

@@ -1,0 +1,13 @@
+<!--pages/shopcart/shopCartCpn/w-bottom-bar/w-bottom-bar.wxml-->
+<view class="bottomBar">
+  <view class="left">
+    <view class="select" bindtap="selectAll">
+      <w-icon isChecked="{{isSelectAll}}" />
+      <text>全选</text>
+    </view>
+    <view class="total">总计：￥{{totalPrice}}</view>
+  </view>
+  <view class="right">
+    <text class="compute">去结算({{totalGoods}})</text>
+  </view>)
+</view>

@@ -1,0 +1,45 @@
+/* pages/profile/profileCpn/w-header/w-header.wxss */
+.header {
+  position: relative;
+  display: flex;
+  height: 180rpx;
+  padding: 0 20rpx;
+  background-color: #ff5879;
+  color: #fff;
+  align-items: center;
+}
+.header .avatar {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  margin-left: 10rpx;
+  background-color: #fff;
+  vertical-align: middle;
+}
+.header .login {
+  margin-left: 30rpx;
+}
+.login .loginHead {
+  font-size: 36rpx;
+}
+.login .loginBottom {
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+.login .loginBottom .phone {
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 10rpx;
+  vertical-align: bottom;
+}
+.header::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 40rpx;
+    width: 30rpx;
+    height: 30rpx;
+    border-top: 6rpx solid #fff;
+    border-right: 6rpx solid #fff;
+    transform: rotate(45deg);
+}

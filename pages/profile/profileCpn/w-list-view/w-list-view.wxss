@@ -1,0 +1,20 @@
+/* pages/profile/profileCpn/w-list-view/w-list-view.wxss */
+.listView {
+  padding: 0 20rpx;
+  border-top: 30rpx solid #eee;
+  font-size: 30rpx;
+  color: #555;
+}
+.viewItem {
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #eee;
+}
+.viewItem:last-child {
+  border-bottom: none;
+}
+.viewItem .image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+  vertical-align: bottom;
+}

@@ -1,0 +1,9 @@
+<!--components/w-icon/w-icon.wxml-->
+<view class="iconCpn">
+  <icon type="success" 
+        size="18" 
+        class="icon" 
+        color="{{isChecked ? '#ff5879' : '#fff'}}"
+        style="border-color: {{isChecked ? '#ff5879' : '#aaa'}}">
+  </icon>
+</view>

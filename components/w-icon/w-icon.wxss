@@ -1,0 +1,9 @@
+/* components/w-icon/w-icon.wxss */
+.iconCpn {
+  padding: 0 15rpx; 
+}
+.iconCpn .icon {
+  border: 4rpx solid #aaa;
+  border-radius: 50%;
+  vertical-align: middle;
+}

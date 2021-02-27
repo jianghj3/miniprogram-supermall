@@ -1,0 +1,19 @@
+<!--pages/detail/detail.wxml-->
+<!-- 展示顶部轮播图 -->
+<w-swiper list = "{{topImages}}" class = "detailSwiper" />
+<!-- 展示商品详情 -->
+<w-base-info baseInfo = "{{baseInfo}}" />
+<!-- 展示店铺详情 -->
+<w-shop-info shopInfo = "{{shopInfo}}" />
+<!-- 展示商品详情信息 -->
+<w-detail-info detailInfo = "{{detailInfo}}" />
+<!-- 展示商品数据信息 -->
+<w-params-info paramsInfo = "{{paramsInfo}}" />
+<!-- 展示评论信息 -->
+<w-comment commentList = "{{commentList}}" />
+<!-- 展示推荐信息 -->
+<w-recommends recommends = "{{recommends}}" />
+<!-- 展示底部bottomBar -->
+<w-bottom-bar bind:addCart = "addCart" />
+<!-- 回到顶部 -->
+<w-back-top wx:if="{{showBackTop}}" />

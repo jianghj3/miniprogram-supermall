@@ -1,0 +1,6 @@
+/* pages/detail/detailCpns/w-recommends/w-recommends.wxss */
+.title {
+  padding: 20rpx 10rpx 10rpx;
+  font-size: 35rpx;
+  color: #555;
+}

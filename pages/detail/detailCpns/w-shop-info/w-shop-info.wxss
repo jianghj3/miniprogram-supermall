@@ -1,0 +1,67 @@
+/* pages/detail/detailCpns/w-shop-info/w-shop-info.wxss */
+.shopInfo {
+  border-bottom: 10rpx solid #eee;
+  font-size: 30rpx;
+  color: #555;
+}
+.shopInfo .baseInfo {
+  margin: 40rpx 10rpx 0;
+}
+.shopInfo .baseInfo .shopLogo {
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 10rpx;
+  border-radius: 50%;
+  border: 2rpx solid #555;
+  vertical-align: middle;
+}
+.shopInfo .baseInfo .shopName {
+  font-size: 34rpx;
+}
+.detailInfo {
+  display: flex;
+  margin: 40rpx 10rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+.sellInfo, .score {
+  flex: 1;
+}
+.sellInfo {
+  display: flex;
+  border-right: 2rpx solid #ccc;
+  align-items: center;
+}
+.sellInfo .countInfo,
+.sellInfo .goodsInfo {
+  flex: 1;
+}
+.countInfo .totalSell,
+.goodsInfo  .totalGoods {
+  margin-top: 15rpx;
+  font-size: 34rpx;
+}
+.scoreInfo {
+  display: flex;
+  margin: 5rpx 0;
+  text-align: center;
+}
+.scoreInfo .scrollItemName {
+  width: 200rpx;
+}
+.scoreInfo .scoreInfoItem {
+  flex: 1;
+}
+.red {
+  color: #ff5879;
+}
+.green {
+  color: #5ea732;
+}
+.entrance {
+  margin: 30rpx;
+  text-align: center;
+}
+.entrance .button {
+  padding: 10rpx 100rpx;
+}

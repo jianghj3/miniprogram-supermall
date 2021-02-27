@@ -1,0 +1,46 @@
+/* pages/shopcart/shopCartCpn/w-list-item/w-list-item.wxss */
+.item {
+  display: flex;
+  padding: 20rpx 0;
+  align-items: center;
+  border-bottom: 2rpx solid #eee;
+} 
+.item .image {
+  width: 180rpx;
+  height: 240rpx;
+  border-radius: 10rpx;
+  vertical-align: middle;
+}
+.item .text {
+  padding: 20rpx;
+  width: 470rpx;
+}
+.text .title,
+.text .desc {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.text .title {
+  font-size: 36rpx;
+  font-weight: 700;
+  color: #333;
+}
+.text .desc {
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  color: #555;
+}
+.item .price {
+ display: flex;
+ margin-top: 40rpx;
+ justify-content: space-between;
+}
+.price .realPrice {
+  color: #ff5879;
+  font-size: 40rpx;
+}
+.price .count {
+  color: #555;
+  font-size: 34rpx;
+}

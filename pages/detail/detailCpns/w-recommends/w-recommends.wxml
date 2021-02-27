@@ -1,0 +1,5 @@
+<!--pages/detail/detailCpns/w-recommends/w-recommends.wxml-->
+<view class="recommends">
+  <view class="title">商品推荐</view>
+  <w-goods goods = "{{recommends}}" />
+</view>

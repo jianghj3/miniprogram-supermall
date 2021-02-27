@@ -1,0 +1,25 @@
+<!--pages/profile/profileCpn/w-info/w-info.wxml-->
+<view class="info">
+  <view class="infoItem">
+    <view class="count">
+      <text class="number">0.00</text>
+      <text class="unit">元</text>
+    </view>
+    <view class="title">我的余额</view>
+  </view>
+  <view class="infoItem">
+    <view class="count">
+      <text class="number">0</text>
+      <text class="unit">张</text>
+    </view>
+    <view class="title">我的优惠券</view>
+  </view>
+  <view class="infoItem">
+    <view class="count">
+      <text class="number">0</text>
+      <text class="unit">分</text>
+    </view>
+    <view class="title">我的积分</view>
+  </view>
+
+</view>

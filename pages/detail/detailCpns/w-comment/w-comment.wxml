@@ -1,0 +1,21 @@
+<!--pages/detail/detailCpns/w-comment/w-comment.wxml-->
+<view class="comment">
+  <view class="header">
+    <view class="title">用户评价</view>
+    <text class="more">更多>></text>
+  </view>
+  <block wx:for="{{commentList}}" wx:key="index" >
+    <view class="commentItem">
+        <view class="userInfo">
+         <image src="{{item.user.avatar}}" class="avatar"></image>
+         <text>{{item.user.uname}}</text>
+        </view>
+        <view class="content">
+        {{item.content}}
+        </view>
+        <view class="style">
+          {{item.style}}
+        </view>
+      </view>
+  </block>
+</view>

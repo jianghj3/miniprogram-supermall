@@ -1,0 +1,11 @@
+<!--pages/profile/profileCpn/w-header/w-header.wxml-->
+<view class="header">
+  <image src="/assets/profile/avatar.png" class="avatar"></image>
+  <view class="login">
+    <view class="loginHead">登录/注册</view>
+    <view class="loginBottom">
+      <image src="/assets/profile/phone.png" class="phone"></image>
+      <text class="text">暂无绑定手机号</text>
+    </view> 
+  </view>
+</view>
